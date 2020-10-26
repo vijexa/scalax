@@ -120,26 +120,11 @@ and returns items which were added, updated (key relative) and deleted in `s2` r
 
 ### RichTry
 
-```scala
-  import com.github.t3hnar.scalax.RichTry
-  
-  Try("10".toInt).fold("NumberFormatException for " + _)("Valid int: " + _)
-  
-  Try("10".toInt).toEither // Right(10)
-  Try("abc".toInt).toEither // Left(java.lang.NumberFormatException: For input string: "abc") 
-```
+*Removed in favor of standard library functionality.*
 
 ### RichEither
 
-```scala
-  import com.github.t3hnar.scalax.RichEither
-
-  val either: Either[Throwable, Int] = Left(new RuntimeException)
-  either.toTry // Failure(java.lang.RuntimeException)
-
-  val either: Either[Throwable, Int] = Right(1)
-  either.toTry // Success(1)  
-```
+*Removed in favor of standard library functionality.*
 
 ### RichSetMap
 

@@ -21,3 +21,9 @@ project/plugins/project/
 
 # Scala
 *.sc
+
+# Metals + VSCode
+.metals
+.bloop
+.vscode
+metals.*

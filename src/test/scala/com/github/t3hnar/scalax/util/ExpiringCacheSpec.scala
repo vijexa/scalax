@@ -4,8 +4,6 @@ import org.specs2.mutable.Specification
 import java.util.concurrent.TimeUnit
 import org.specs2.specification.Scope
 import scala.concurrent.duration.FiniteDuration
-import java.sql.Time
-import java.util.concurrent.locks.ReentrantLock
 
 /**
  * @author Yaroslav Klymko
